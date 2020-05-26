@@ -1,2 +1,3 @@
-# **Computaçao Básica**
- Exercicios sobre lógica de programação que podem ser resolvidos a partir de qualquer linguagem.
+# **Respostas para o exercicio 001**
+ 
+ As respostas mostradas aqui utilizaram JS e um site em HTML5 e CSS para o design
