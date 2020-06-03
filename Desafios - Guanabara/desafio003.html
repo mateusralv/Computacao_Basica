@@ -18,7 +18,12 @@
     <script>
         function calcular(){
             var numero = prompt("Digite um numero inteiro")
-            alert(`Antes do ${numero} temos o número ${numero-1} depois do número ${numero}, temos o número ${numero}`)
+            if(numero > 0 || numero <= 0){
+                alert(`O número ${parseInt(numero)} tem como antecessor o número ${parseInt(numero)-1} e como sucessor o número ${parseInt(numero)+1}`)
+            }else{
+                alert('Digite um número válido')
+            }
+            
 
         }
     </script>
