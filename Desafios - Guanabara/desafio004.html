@@ -13,6 +13,25 @@
     </style>
 </head>
 <body>
+    <p><h1>Calculando o troco</h1></p>
+    <input type="button" value="Comprar produto" onclick="comprar()">
+    <script>
+        function comprar(){
+            var produto = prompt("Qual o produto está comprando?")
+            var preco = prompt(`Quanto custa ${produto} que você quer comprar?`)
+            var dinheiro = prompt(`Quanto você deu pelo ${produto}?`)
+            var valor = parseFloat(preco)
+            var pagou = parseFloat(dinheiro)
+            var troco = pagou-valor
+           
+            if(troco<0){
+                alert(`O valor pago não é suficiente para comprar ${produto}, por favor insira um valor igual ou superior a R$${preco}`)
+            }else {
+                alert(`Você comprou ${produto}, que custou R$${preco}. Onde você deu R$${dinheiro} e vai receber R$${troco} de troco`)
+            }
+
+        }
+    </script>
     
 </body>
 </html>
