@@ -10,6 +10,10 @@
             text-align: center;
             font-size: large;
         }
+        h1.msg{
+            font-size: medium;
+        }
+
     </style>
 </head>
 <body>
@@ -21,12 +25,21 @@
     </section>
 
     <footer>
-        <p>&copy; <a href="https://www.instagram.com/mateusralv/">instagram</a> <a href="https://github.com/mateusralv">GitHub</a></p>
+        <p>&copy; Mateus Alves <a href="https://www.instagram.com/mateusralv/">instagram</a> <a href="https://github.com/mateusralv">GitHub</a></p>
     </footer>
     
     <script>
         function converter() {
-            var entradaM = prompt("Digite a distância em metros (m)")
+            var entradaS = prompt("Digite a distância em metros (m)")
+            var entradaN = parseFloat(entradaS)
+            var res = document.getElementById("msg")
+            res.innerHTML = (`A distância de ${entradaN} metros, corresponde a...</br></br>`)
+            res.innerHTML += (`1. ${entradaN/1000} quilômetros (Km) </br></br>`)
+            res.innerHTML += (`2. ${entradaN/100} hectômetros (Hm) </br></br>`)
+            res.innerHTML += (`3. ${entradaN/10} decâmetros (Dam) </br></br>`)
+            res.innerHTML += (`4. ${entradaN*10} decímetros (dm) </br></br>`)
+            res.innerHTML += (`5. ${entradaN*100} centímetros (cm) </br></br>`)
+            res.innerHTML += (`6. ${entradaN*1000} milímetros (mm)`)
         }
     </script>
 </body>
