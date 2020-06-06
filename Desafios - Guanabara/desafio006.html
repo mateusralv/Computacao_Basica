@@ -14,7 +14,7 @@
 </head>
 <body>
     <header>
-        <p>Conversor de Temperaturas</p>
+        <p><strong> <big>Conversor de Temperaturas  </big> </strong></p>
     </header>
     <section>
         <input type="button" value="Converter" onclick="converter()">
@@ -22,9 +22,16 @@
     </section>
     <script>
         function converter() {
-            var celsius = prompt("Entre com a temperatura em graus celsius (°C)")
+            var celsius = parseFloat(prompt("Entre com a temperatura em graus celsius (°C)"))
+            var resol = document.getElementById("res")
+            resol.innerHTML = (`<strong>A temperatura ${celsius}°C é igual a:</strong></br>`)
+            resol.innerHTML += (`</br>${celsius + 273}K (Escala Kelvin). </br>`)
+            resol.innerHTML += (`</br>${(celsius*1.8 + 32)}°F (Escala Farenheit).`)
         }
     </script>
+    <footer>
+        <br>&copy; Mateus Alves <a href="https://www.instagram.com/mateusralv/">instagram</a> <a href="https://github.com/mateusralv">GitHub</a>
+    </footer>
     
 </body>
 </html>
