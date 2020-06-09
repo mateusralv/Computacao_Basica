@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+
+    <title>Desafio 07</title>
+
+    <style>
+        *{
+            font-family: 'Roboto', sans-serif;
+            text-align: center;
+            text-decoration: none
+        }
+
+        div {
+            border-top: 30px;
+            text-align: center;
+        }
+
+        body header p strong {
+            font-size: x-large;
+        }
+
+        body footer{
+            bottom: 48px;
+        }
+
+    </style>
+
+</head>
+
+<body onload="cotacao()">
+    <header >
+        <h1>Conversor do R$ para US$: </h1>
+
+    </header>
+    <section>
+        <input type="button" value="Converter" onclick="converter()">
+        <p><div id="res">Clique acima para iniciar</div></p>
+       
+    </section>
+
+    <script>
+        var cotacaoHoje
+        function cotacao() {
+            cotacaoHoje = parseFloat(prompt("Antes de mais nada. Insira a cotação do dolar (US$) agora"))
+        }
+
+        function converter(){
+            var carteira  =  parseFloat(prompt("Quanto você tem na carteira? Em reais."))
+            var resol = document.getElementById("res")
+
+            resol.innerHTML = (`Você poderá comprar US$${carteira/cotacaoHoje}`)
+        }
+    </script>
+
+    <footer>&copy; Mateus Alves <a href="https://github.com/mateusralv">GitHub</a></footer>
+    
+</body>
+</html>
