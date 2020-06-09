@@ -52,8 +52,10 @@
         function converter(){
             var carteira  =  parseFloat(prompt("Quanto você tem na carteira? Em reais."))
             var resol = document.getElementById("res")
+            var data = new Date()
+            var horas = data.getHours()
 
-            resol.innerHTML = (`Você poderá comprar US$${carteira/cotacaoHoje}`)
+            resol.innerHTML = (`Você poderá comprar US$${carteira/cotacaoHoje} com a cotação do dia ${data.getDay()}/${data.getMonth()}/${data.getFullYear()} às ${horas}:${data.getMinutes()}h`)
         }
     </script>
 
