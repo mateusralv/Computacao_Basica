@@ -1,5 +1,4 @@
-# Exercícios
+# Repoitório para exercícios e testes de codigos 
 
-Exercícios formulados para testar o conhecimento em computação básica e podem ser resolvidos em qualquer linguagem. 
+Exercícios formulados para testar o conhecimento em lógica de programação e testes.
 
-*Boa Sorte*
