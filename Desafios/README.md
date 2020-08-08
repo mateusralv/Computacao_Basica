@@ -1,4 +1,4 @@
-# Desafios sobre programação básica
+# Desafios sobre programação básica.
 
 ## Lista:
 Os desafios foram respondidos em JavaScript e podem ser encontrados [clicando aqui](https://github.com/gustavoguanabara/javascript/tree/master/desafios).
