@@ -1,5 +1,5 @@
 # Exercícios
----
+
 ## Listas:
 - [Lista 01.](https://github.com/mateusralv/basic-programming/blob/master/Lista/Exerc%C3%ADcios%20-%20Programa%C3%A7%C3%A3o%20B%C3%A1sica.pdf)
 
