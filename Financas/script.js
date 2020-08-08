@@ -9,3 +9,19 @@ let teste = {
 
 console.log(teste)
 
+function inverter(s){
+    return s.split("").reverse().join("");
+}
+
+var teste1 = [ 'ue', 'oma', 'oacamargorp' ]
+function resultado (fraseSep){
+    var fraseFinal = ""
+    for (var i = 0 in fraseSep){
+        var palavraFinal = inverter(fraseSep[i])
+        fraseFinal = fraseFinal + " " + palavraFinal
+        
+    }
+    console.log(fraseFinal)
+}
+
+resultado(teste1)
