@@ -1,14 +1,14 @@
 # Desafios sobre programação básica.
 
 ## Lista:
--[Desafio 01: Enviar mensagem](https://github.com/gustavoguanabara/javascript/blob/master/desafios/d001/desafio-mensagens.pdf).
--[Desafio 02: Boas Vindas](https://github.com/gustavoguanabara/javascript/blob/master/desafios/d002/desafio-boas-vindas.pdf).
--[Desafio 03: Antes e Depois](https://github.com/gustavoguanabara/javascript/blob/master/desafios/d003/desafio-antes-depois.pdf).
--[Desafio 04: Troco](https://github.com/gustavoguanabara/javascript/blob/master/desafios/d004/desafio-troco.pdf).
--[Desafio 05: Conversor de Medidas](https://github.com/gustavoguanabara/javascript/blob/master/desafios/d005/desafio-conversor-medidas.pdf).
--[Desafio 06: Conversor de Temperatura](https://github.com/gustavoguanabara/javascript/blob/master/desafios/d006/desafio-conversor-temperatura.pdf).
--[Desafio 07: Conversor Monetario](https://github.com/gustavoguanabara/javascript/blob/master/desafios/d007/desafio-conversor-monetario.pdf).
--[Desafio 08: Desconto](https://github.com/gustavoguanabara/javascript/blob/master/desafios/d008/desafio-desconto.pdf).
+- [Desafio 01](https://github.com/gustavoguanabara/javascript/blob/master/desafios/d001/desafio-mensagens.pdf): Enviar mensagem.
+- [Desafio 02](https://github.com/gustavoguanabara/javascript/blob/master/desafios/d002/desafio-boas-vindas.pdf): Boas Vindas.
+- [Desafio 03](https://github.com/gustavoguanabara/javascript/blob/master/desafios/d003/desafio-antes-depois.pdf): Antes e Depois.
+- [Desafio 04](https://github.com/gustavoguanabara/javascript/blob/master/desafios/d004/desafio-troco.pdf): Troco.
+- [Desafio 05](https://github.com/gustavoguanabara/javascript/blob/master/desafios/d005/desafio-conversor-medidas.pdf): Conversor de Medidas.
+- [Desafio 06](https://github.com/gustavoguanabara/javascript/blob/master/desafios/d006/desafio-conversor-temperatura.pdf): Conversor de Temperatura.
+- [Desafio 07](https://github.com/gustavoguanabara/javascript/blob/master/desafios/d007/desafio-conversor-monetario.pdf): Conversor Monetario.
+- [Desafio 08](https://github.com/gustavoguanabara/javascript/blob/master/desafios/d008/desafio-desconto.pdf): Desconto.
 
 ## Resoluções:
 Os desafios foram respondidos em JavaScript, HTML e CSS.
