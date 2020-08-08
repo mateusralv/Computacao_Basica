@@ -1,11 +1,11 @@
 # Desafios sobre programação básica.
 
 ## Lista:
-Os desafios foram respondidos em JavaScript e podem ser encontrados [clicando aqui](https://github.com/gustavoguanabara/javascript/tree/master/desafios).
+Os desafios foram respondidos em JavaScript, HTML e CSS e podem ser encontrados [clicando aqui](https://github.com/gustavoguanabara/javascript/tree/master/desafios).
 
 ## Resoluções:
-- [Desafio 01](https://github.com/mateusralv/basic-programming/tree/master/Desafios/Desafio001). (JS, HTML e CSS)
-- [Desafio 02](https://github.com/mateusralv/basic-programming/tree/master/Desafios/Desafio002). (JS, HTML e CSS)
+- [Desafio 01](https://github.com/mateusralv/basic-programming/tree/master/Desafios/Desafio001).
+- [Desafio 02](https://github.com/mateusralv/basic-programming/tree/master/Desafios/Desafio002).
 - [Desafio 03](https://github.com/mateusralv/basic-programming/blob/master/Desafios/desafio003.html).
 - [Desafio 04](https://github.com/mateusralv/basic-programming/blob/master/Desafios/desafio004.html).
 - [Desafio 05](https://github.com/mateusralv/basic-programming/blob/master/Desafios/desafio005.html).
