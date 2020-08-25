@@ -1,6 +1,6 @@
 # Desafios sobre programação básica.
 
-##  📋 Lista:
+##  📋 Lista de desafios:
 - [Desafio 01](https://github.com/gustavoguanabara/javascript/blob/master/desafios/d001/desafio-mensagens.pdf): Enviar mensagem.
 - [Desafio 02](https://github.com/gustavoguanabara/javascript/blob/master/desafios/d002/desafio-boas-vindas.pdf): Boas Vindas.
 - [Desafio 03](https://github.com/gustavoguanabara/javascript/blob/master/desafios/d003/desafio-antes-depois.pdf): Antes e Depois.
@@ -10,7 +10,13 @@
 - [Desafio 07](https://github.com/gustavoguanabara/javascript/blob/master/desafios/d007/desafio-conversor-monetario.pdf): Conversor Monetario.
 - [Desafio 08](https://github.com/gustavoguanabara/javascript/blob/master/desafios/d008/desafio-desconto.pdf): Desconto.
 
-##  📋 Resoluções:
+## 🚀 Tecnologias
+Estas aplicações apresentam todas as mais recentes ferramentas e práticas em desenvolvimento web.
+* JavaScript;
+* HTML5;
+* CSS;
+
+##  🖇️  Resoluções:
 - [Desafio 01](https://github.com/mateusralv/basic-programming/tree/master/Desafios/Desafio001).
 - [Desafio 02](https://github.com/mateusralv/basic-programming/tree/master/Desafios/Desafio002).
 - [Desafio 03](https://github.com/mateusralv/basic-programming/blob/master/Desafios/desafio003.html).
