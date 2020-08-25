@@ -3,8 +3,9 @@
 Exercícios formulados para testar o conhecimento em lógica de programação.
 
 ## 📦 Resumo
-- [Desafios](https://github.com/mateusralv/basic-programming/tree/master/Desafios) - JS, CSS e HTML;
-- [Lista](https://github.com/mateusralv/basic-programming/tree/master/Lista) - JS, CSS, HTML ou Python.
+- [Desafios](https://github.com/mateusralv/basic-programming/tree/master/Desafios)
+- [Lista](https://github.com/mateusralv/basic-programming/tree/master/Lista)
+- [To do List](https://github.com/mateusralv/basic-programming/tree/master/App%20ToDo)
 
 
 ## 🚀 Tecnologias
