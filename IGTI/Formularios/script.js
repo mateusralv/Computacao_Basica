@@ -48,32 +48,45 @@ function activateInput() {
 }*/
 function render() {
   var ul = document.createElement('ul');
+  idNames.innerHTML = ' ';
 
-  for (var i in globalNames) {
-    function createDeleteButton(index) {
-      function deleteName() {
-        globalNames.splice(index, 1);
-      }
-      var button = document.createElement('button');
-      button.textContent = 'x';
-
-      button.addEventListener('onclick', deleteName);
-      return button;
+  function createDeleteButton(index) {
+    function deleteName() {
+      globalNames.splice(index, 1);
+      render();
     }
 
-    var currentName = globalNames[i];
+    var button = document.createElement('button');
+    button.textContent = 'x';
+    button.addEventListener('click', deleteName);
+    return button;
+  }
 
-    var li = document.createElement('li');
-
-    var button = createDeleteButton(i);
-
+  function createSpan(name,index) {
+    function editItem() {
+      var trans
+      inputname.value = name;
+      inputname.focus();
+      globalNames[index] = 
+      globalNames.splice(index, 1);
+      render();
+    }
     var span = document.createElement('span');
-    span.textContent = currentName;
+    span.classList.add('clickable');
+    span.textContent = name;
+    span.addEventListener('click', editItem);
+    return span;
+  }
+
+  for (var i in globalNames) {
+    var currentName = globalNames[i];
+    var li = document.createElement('li');
+    var button = createDeleteButton(i);
+    var span = createSpan(currentName, i);
 
     li.appendChild(button);
     li.appendChild(span);
     ul.appendChild(li);
   }
-
   idNames.appendChild(ul);
 }
