@@ -3,6 +3,7 @@ var globalNames = [];
 var inputname = null;
 var idNames = document.getElementById('names');
 idNames.innerHTML = ' ';
+var isChange = false;
 
 var nomesCadastrados = [];
 
@@ -23,10 +24,17 @@ function preventFormsubmit() {
   var form = document.querySelector('form');
   form.addEventListener('submit', handleFormSubmit);
 }
-
+function editFrame(index,event){
+  globalNames[index] = event
+}
 function activateInput() {
-  function insertName(event) {
-    globalNames.push(event);
+  function insertName(event, index) {
+    if (isChange) {
+      editFrame(event)
+    } else {
+      globalNames.push(event);
+    }
+    isChange= false
     inputname.value = ' ';
   }
 
@@ -62,14 +70,11 @@ function render() {
     return button;
   }
 
-  function createSpan(name,index) {
+  function createSpan(name, index) {
     function editItem() {
-      var trans
       inputname.value = name;
       inputname.focus();
-      globalNames[index] = 
-      globalNames.splice(index, 1);
-      render();
+      isChange= true
     }
     var span = document.createElement('span');
     span.classList.add('clickable');
