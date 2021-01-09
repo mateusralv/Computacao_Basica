@@ -12,7 +12,7 @@ function start() {
   activateInput();
   preventFormsubmit();
   render();
-}
+} 
 
 function preventFormsubmit() {
   //Essa Função faz com que a pagina não seja recarregada sempre que aertar enter
