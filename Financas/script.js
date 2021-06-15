@@ -34,4 +34,4 @@ for (const index in data){
         }
     }
 }
-console.log(teste[])
+console.log(teste)
